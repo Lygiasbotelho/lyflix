@@ -1,1 +1,0 @@
-Gerar logo [https://fontmeme.com/netflix-font/]

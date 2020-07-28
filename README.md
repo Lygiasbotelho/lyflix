@@ -66,3 +66,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+-----------------------------------------------------
+Gerar logo [https://fontmeme.com/netflix-font/]
+CSS [https://gist.github.com/omariosouto/19dafd5ca155c46b3dcb31df89cfba55]
+Google Fonts [https://fonts.google.com/]
+Vscode-styled-components [https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components]
+
+
+Rodar projeto:
+### npm start
