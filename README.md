@@ -74,6 +74,11 @@ CSS [https://gist.github.com/omariosouto/19dafd5ca155c46b3dcb31df89cfba55]
 Google Fonts [https://fonts.google.com/]
 Vscode-styled-components [https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components]
 
+-----------------------------------------------------
+Plugin Live Share do VSCode: Programar juntos!!!!
 
 Rodar projeto:
 ### npm start
+
+Instalar styled-component
+### npm install styled-components
