@@ -82,3 +82,9 @@ Rodar projeto:
 
 Instalar styled-component
 ### npm install styled-components
+
+-----------------------------------------------------
+Aula 2
+
+Instalar react-router-dom
+### npm install react-router-dom

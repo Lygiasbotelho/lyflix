@@ -14,6 +14,7 @@ function Footer() {
           Imersão React da Alura
         </a>
       </p>
+      <p>Por Lygia Botelho</p>
     </FooterBase>
   );
 }
