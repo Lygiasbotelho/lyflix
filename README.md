@@ -88,3 +88,8 @@ Aula 2
 
 Instalar react-router-dom
 ### npm install react-router-dom
+
+Instalar lib de slider (Carrosel)
+### npm install react-slick
+-----------------------------------------------------
+Site [https://lyflix.vercel.app/]

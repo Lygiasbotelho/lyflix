@@ -12,7 +12,7 @@ function Home() {
       <Menu />
       <BannerMain videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"fafsa"}
+        videoDescription={""}
       />
       <Carousel
         ignoreFirstVideo
