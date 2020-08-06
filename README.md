@@ -93,3 +93,6 @@ Instalar lib de slider (Carrosel)
 ### npm install react-slick
 -----------------------------------------------------
 Site [https://lyflix.vercel.app/]
+
+Instalação Eslint
+### npx eslint --init
