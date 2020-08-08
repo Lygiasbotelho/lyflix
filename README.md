@@ -96,3 +96,35 @@ Site [https://lyflix.vercel.app/]
 
 Instalação Eslint
 ### npx eslint --init
+
+No package.json, trocar versão de dependência Eslint para: ^6.6.0
+E rodar
+### npm install
+
+Instalar e habilitar o plugin do VScode ESLint (Ctrl+Shift+P -> Enable ESLint)
+
+-----------------------------------------------------
+
+Instalação prop-types: https://www.npmjs.com/package/prop-types
+### npm install prop-types
+
+Instalação back-end
+### npm install json-server
+
+Adicionar ao script do package.json
+"server": "json-server --watch db.json",
+
+Rodar server:
+### npm run server
+
+-------------------------------------------------------
+
+Rodar dois ou mais serviços que param o terminal ao mesmo tempo: 
+[ https://www.npmjs.com/package/concurrently ]
+### npm install --save-dev concurrently
+
+Lançar alterações no package.json
+"dev": "concurrently \"react-scripts start\" \"npm run server\"",
+
+Agora, para rodar o servidor do front e do back:
+### npm run dev
