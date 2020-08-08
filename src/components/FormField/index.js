@@ -65,7 +65,7 @@ const Input = styled.input`
         &:not([type='color']) + span {
           transform: scale(.6) translateY(-10px);
         }
-      `}
+  `}
 `;
 
 function FormField({ label, type, name, value, onChange }) {
@@ -111,5 +111,6 @@ FormField.propTypes = {
   name: PropTypes.string.isRequired,
   value: PropTypes.string,
   onChange: PropTypes.func.isRequired,
-}
+};
+
 export default FormField;
