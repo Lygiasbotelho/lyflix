@@ -41,20 +41,20 @@ function CadastroCategoria() {
   useEffect(() => {
 
     //console.log('alo alo Brasilll'); //O que quer que aconteça?
-    if (window.location.href.includes('localhost')) {
+   // if (window.location.href.includes('localhost')) {
       const URL_TOP = 'http://localhost:8080/categorias';
 
       fetch(URL_TOP)
         .then(async (respostaDoServidor) => {
-          if (respostaDoServidor.ok) {
+         // if (respostaDoServidor.ok) {
           const resposta = await respostaDoServidor.json();
           setCategorias([
             ...resposta,
           ]);
-          return;
-        } throw new Error('Não foi possível pegar os dados');
-    })
-}
+        //  return;
+       // } throw new Error('Não foi possível pegar os dados');
+    });
+//}
 
     /////
     // setTimeout(() => {
