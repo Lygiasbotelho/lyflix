@@ -128,3 +128,17 @@ Lançar alterações no package.json
 
 Agora, para rodar o servidor do front e do back:
 ### npm run dev
+
+---------------------------------------------------------
+Fim aula 4, vamos subir para o Heroku
+
+Mais uma alteração no package.json:
+
+"server": "node ./server.js",
+"dev": "concurrently \"react-scripts start\" \"npm run server\"",
+"start": "npm run server",
+
+Para rodar o projeto:
+### npm run server
+
+---------------------------------------------------------
